@@ -102,8 +102,8 @@ const imprimirForm = (form, procesosConfirmados) => {
             }
 
             // ID duplicado
-            if (procesosConfirmados.some(proc => proc.id === id)) {
-                alert("El ID ya ha sido utilizado. Debe ser único.");
+            if (procesosConfirmados.some(proc => proc.id === id) && id < 0) {
+                alert("El ID ya ha sido utilizado o es invalido.");
                 return;
             }
 
