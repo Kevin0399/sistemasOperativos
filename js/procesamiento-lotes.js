@@ -71,7 +71,7 @@ const imprimirForm = (form, procesosConfirmados) => {
             </label><br><br>
             <label>Dato 1: <input type="number" name="dato1" required></label><br><br>
             <label>Dato 2: <input type="number" name="dato2" required></label><br><br>
-            <label>TME: <input type="number" name="tme" required></label><br><br>
+            <label>TME (en ms): <input type="number" name="tme" required></label><br><br>
         `;
 
         // Botón para confirmar y guardar el proceso
